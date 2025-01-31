@@ -34,7 +34,7 @@ This project is a functional clone of the MakeMyTrip homepage hero section. It i
 - 🎫 Select fare categories to filter results.
 
 ## 🌍 Live Demo
-[Live Demo](#) (Add your hosted link here)
+https://makemytripclone1.netlify.app/
 
 ## 🤝 Contributing
 1. 🍴 Fork the repository.
