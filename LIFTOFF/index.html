@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functional MakeMyTrip Clone - Hero Section</title>
-    <link rel="stylesheet" href="C:\LIFTOFF\style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="loading" id="loadingBar"></div>
@@ -25,10 +26,21 @@
     </header>
 
     <section class="hero">
-        <video autoplay loop muted playsinline class="hero-video">
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-traveling-through-a-city-at-night-4330-large.mp4" type="video/mp4">
+        <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            class="hero-video"
+            poster="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/hero-bg.jpg"
+        >
+            <source 
+                src="https://assets.mixkit.co/videos/preview/mixkit-traveling-through-a-city-at-night-4330-large.mp4" 
+                type="video/mp4"
+            >
             Your browser does not support the video tag.
         </video>
+        <div class="video-overlay"></div>
         <div class="search-container">
             <form class="search-form" id="searchForm">
                 <input type="text" id="from" placeholder="From" required>
@@ -59,6 +71,6 @@
         <div id="searchResults" class="search-results" style="display: none;"></div>
     </section>
 
-    <script src="C:\LIFTOFF\script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
